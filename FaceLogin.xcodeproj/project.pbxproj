@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C501ACF4D2118BA8B248F0F2 /* Pods_FaceLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE4E12D3C67F4987E2432A6 /* Pods_FaceLogin.framework */; };
 		F9AC4A4C1F2FF14F002443EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC4A4B1F2FF14F002443EB /* AppDelegate.swift */; };
 		F9AC4A4E1F2FF14F002443EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC4A4D1F2FF14F002443EB /* ViewController.swift */; };
 		F9AC4A511F2FF14F002443EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AC4A4F1F2FF14F002443EB /* Main.storyboard */; };
 		F9AC4A531F2FF14F002443EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9AC4A521F2FF14F002443EB /* Assets.xcassets */; };
 		F9AC4A561F2FF14F002443EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AC4A541F2FF14F002443EB /* LaunchScreen.storyboard */; };
+		F9AC4A5E1F2FF395002443EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9AC4A5D1F2FF395002443EB /* GoogleService-Info.plist */; };
+		F9AC4A601F2FFF25002443EB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC4A5F1F2FFF25002443EB /* SignUpViewController.swift */; };
+		F9AC4A621F2FFF3F002443EB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC4A611F2FFF3F002443EB /* LogInViewController.swift */; };
+		F9AC4A641F2FFF5C002443EB /* LoggedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC4A631F2FFF5C002443EB /* LoggedViewController.swift */; };
+		F9C01B241F30046A00183EE1 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C01B231F30046A00183EE1 /* Camera.storyboard */; };
+		F9C01B261F30056E00183EE1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C01B251F30056E00183EE1 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7DE4E12D3C67F4987E2432A6 /* Pods_FaceLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		859DA8DA4325954D9E4F2F6D /* Pods-FaceLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceLogin/Pods-FaceLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		CBD3273EDDD254E2AD361E9A /* Pods-FaceLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceLogin/Pods-FaceLogin.release.xcconfig"; sourceTree = "<group>"; };
 		F9AC4A481F2FF14F002443EB /* FaceLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9AC4A4B1F2FF14F002443EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9AC4A4D1F2FF14F002443EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		F9AC4A521F2FF14F002443EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9AC4A551F2FF14F002443EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9AC4A571F2FF14F002443EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9AC4A5D1F2FF395002443EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F9AC4A5F1F2FFF25002443EB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F9AC4A611F2FFF3F002443EB /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		F9AC4A631F2FFF5C002443EB /* LoggedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedViewController.swift; sourceTree = "<group>"; };
+		F9C01B231F30046A00183EE1 /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		F9C01B251F30056E00183EE1 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C501ACF4D2118BA8B248F0F2 /* Pods_FaceLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4294D220A158B59D529F92C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE4E12D3C67F4987E2432A6 /* Pods_FaceLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9D1F7B27BBB4CBA4E4FB1A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				859DA8DA4325954D9E4F2F6D /* Pods-FaceLogin.debug.xcconfig */,
+				CBD3273EDDD254E2AD361E9A /* Pods-FaceLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F9AC4A3F1F2FF14F002443EB = {
 			isa = PBXGroup;
 			children = (
 				F9AC4A4A1F2FF14F002443EB /* FaceLogin */,
 				F9AC4A491F2FF14F002443EB /* Products */,
+				B9D1F7B27BBB4CBA4E4FB1A4 /* Pods */,
+				B4294D220A158B59D529F92C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +96,12 @@
 				F9AC4A521F2FF14F002443EB /* Assets.xcassets */,
 				F9AC4A541F2FF14F002443EB /* LaunchScreen.storyboard */,
 				F9AC4A571F2FF14F002443EB /* Info.plist */,
+				F9AC4A5D1F2FF395002443EB /* GoogleService-Info.plist */,
+				F9AC4A5F1F2FFF25002443EB /* SignUpViewController.swift */,
+				F9AC4A611F2FFF3F002443EB /* LogInViewController.swift */,
+				F9AC4A631F2FFF5C002443EB /* LoggedViewController.swift */,
+				F9C01B231F30046A00183EE1 /* Camera.storyboard */,
+				F9C01B251F30056E00183EE1 /* CameraViewController.swift */,
 			);
 			path = FaceLogin;
 			sourceTree = "<group>";
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9AC4A5A1F2FF14F002443EB /* Build configuration list for PBXNativeTarget "FaceLogin" */;
 			buildPhases = (
+				C9040722DC0790C752553B58 /* [CP] Check Pods Manifest.lock */,
 				F9AC4A441F2FF14F002443EB /* Sources */,
 				F9AC4A451F2FF14F002443EB /* Frameworks */,
 				F9AC4A461F2FF14F002443EB /* Resources */,
+				C635B800747A06812BF5A999 /* [CP] Embed Pods Frameworks */,
+				2B6DE373500403AC718AB9D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +141,7 @@
 				TargetAttributes = {
 					F9AC4A471F2FF14F002443EB = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZYC88EGF9W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,20 +170,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9AC4A561F2FF14F002443EB /* LaunchScreen.storyboard in Resources */,
+				F9AC4A5E1F2FF395002443EB /* GoogleService-Info.plist in Resources */,
 				F9AC4A531F2FF14F002443EB /* Assets.xcassets in Resources */,
 				F9AC4A511F2FF14F002443EB /* Main.storyboard in Resources */,
+				F9C01B241F30046A00183EE1 /* Camera.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B6DE373500403AC718AB9D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceLogin/Pods-FaceLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C635B800747A06812BF5A999 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceLogin/Pods-FaceLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9040722DC0790C752553B58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9AC4A441F2FF14F002443EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AC4A621F2FFF3F002443EB /* LogInViewController.swift in Sources */,
+				F9AC4A601F2FFF25002443EB /* SignUpViewController.swift in Sources */,
+				F9AC4A641F2FFF5C002443EB /* LoggedViewController.swift in Sources */,
 				F9AC4A4E1F2FF14F002443EB /* ViewController.swift in Sources */,
 				F9AC4A4C1F2FF14F002443EB /* AppDelegate.swift in Sources */,
+				F9C01B261F30056E00183EE1 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,11 +360,13 @@
 		};
 		F9AC4A5B1F2FF14F002443EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 859DA8DA4325954D9E4F2F6D /* Pods-FaceLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZYC88EGF9W;
 				INFOPLIST_FILE = FaceLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RAinyShinyCluody.FaceLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FaceLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,11 +374,13 @@
 		};
 		F9AC4A5C1F2FF14F002443EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD3273EDDD254E2AD361E9A /* Pods-FaceLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZYC88EGF9W;
 				INFOPLIST_FILE = FaceLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RAinyShinyCluody.FaceLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FaceLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -301,6 +405,7 @@
 				F9AC4A5C1F2FF14F002443EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
