@@ -13,7 +13,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="5Nu-62-K02">
             <objects>
-                <viewController id="CbY-EK-wzt" customClass="SignUpViewController" customModule="FaceLogin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUp" id="CbY-EK-wzt" customClass="SignUpViewController" customModule="FaceLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eYj-N2-ZbY"/>
                         <viewControllerLayoutGuide type="bottom" id="Jfx-Tu-rEt"/>
@@ -29,7 +29,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AO2-bf-XzP">
                                 <rect key="frame" x="16" y="114" width="343" height="30"/>
@@ -38,7 +38,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Varify PAssword" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LfZ-Ba-Gro">
                                 <rect key="frame" x="16" y="152" width="343" height="30"/>
@@ -47,7 +47,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWb-Fw-mVu">
                                 <rect key="frame" x="16" y="217" width="34" height="30"/>
@@ -102,7 +102,7 @@
         <!--Logged View Controller-->
         <scene sceneID="zZa-6a-fHj">
             <objects>
-                <viewController id="r8L-dy-hpJ" customClass="LoggedViewController" customModule="FaceLogin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Logged" id="r8L-dy-hpJ" customClass="LoggedViewController" customModule="FaceLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XRG-Mk-a32"/>
                         <viewControllerLayoutGuide type="bottom" id="3pL-h1-5Ec"/>
@@ -191,7 +191,7 @@
         <!--Log In View Controller-->
         <scene sceneID="oyJ-Aa-HeC">
             <objects>
-                <viewController id="OhH-vi-BXU" customClass="LogInViewController" customModule="FaceLogin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogIn" id="OhH-vi-BXU" customClass="LogInViewController" customModule="FaceLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7NP-Xe-weH"/>
                         <viewControllerLayoutGuide type="bottom" id="2Ka-RU-ShU"/>
@@ -207,7 +207,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="elg-09-BUy">
                                 <rect key="frame" x="16" y="91" width="343" height="30"/>
@@ -216,7 +216,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1O-uS-7DN">
                                 <rect key="frame" x="16" y="146" width="50" height="32"/>

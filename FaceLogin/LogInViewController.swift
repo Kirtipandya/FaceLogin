@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class LogInViewController: UIViewController {
 
@@ -21,6 +22,23 @@ class LogInViewController: UIViewController {
     }
     
     @IBAction func LogInPressed(_ sender: Any) {
+        
+        guard emailField.text != "", PasswordField.text != "" else {return}
+        
+        Auth.auth().signIn(withEmail: emailField.text!, password: PasswordField.text!) { (user, error) in
+            
+            
+            if error != nil {
+                print(error!)
+                return
+            }
+            let cameraVC = UIStoryboard(name: "Camera", bundle: nil).instantiateInitialViewController() as! CameraViewController
+            
+            cameraVC.photoType = .Login
+            self.present(cameraVC, animated: true, completion: nil)
+            
+        }
+        
     }
 
 }

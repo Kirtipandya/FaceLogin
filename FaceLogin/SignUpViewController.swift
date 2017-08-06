@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class SignUpViewController: UIViewController {
 
@@ -23,6 +25,31 @@ class SignUpViewController: UIViewController {
 
 
     @IBAction func SignUpPressed(_ sender: Any) {
+        
+        guard EmailField.text != "", Password.text != "", PasswordConField.text != "", (Password.text?.characters.count)! > 6 else {return}
+        
+        if Password.text == PasswordConField.text {
+           
+            Auth.auth().createUser(withEmail: EmailField.text!, password: Password.text!, completion: { (user, error) in
+                
+                if error != nil {
+                    print(error!)
+                    return
+                }
+                
+                let cameraVC = UIStoryboard(name: "Camera", bundle: nil).instantiateInitialViewController() as! CameraViewController
+                
+                cameraVC.photoType = .Signup
+                self.present(cameraVC, animated: true, completion: nil)
+            })
+            
+        } else {
+            let alert = UIAlertController(title: "Password does not match", message: "Please recheck your both passwords. Characters must be more than six.", preferredStyle: .alert)
+            let cancel = UIAlertAction(title: "Cancel", style: .destructive, handler: nil)
+            
+            alert.addAction(cancel)
+            present(alert, animated: true, completion: nil)
+        }
     }
 
 }
