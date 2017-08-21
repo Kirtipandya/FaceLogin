@@ -98,7 +98,7 @@ class CameraViewController: UIViewController, AVCapturePhotoCaptureDelegate {
             if photoType == PhotoType.Signup {
                 
                 self.personImage = UIImage(data: dataImage)
-                let client = MPOFaceServiceClient(subscriptionKey: "0793ce4026a9401bb188810e2aec8e97")!
+                let client = MPOFaceServiceClient(subscriptionKey: "1f4edb3daeda4b2d82dbdef097f95bc1")!
                 let data = UIImageJPEGRepresentation(self.personImage, 0.8)
                 client.detect(with: data, returnFaceId: true, returnFaceLandmarks: true, returnFaceAttributes: [], completionBlock: { (faces, error) in
                     
@@ -116,6 +116,7 @@ class CameraViewController: UIViewController, AVCapturePhotoCaptureDelegate {
                         
                         if let err = error {
                             print(err)
+                            return
                         }
                     })
                     upLoadTask.resume()
@@ -150,7 +151,7 @@ class CameraViewController: UIViewController, AVCapturePhotoCaptureDelegate {
     
     func varify (withURL url: String) {
         
-        let client = MPOFaceServiceClient(subscriptionKey: "0793ce4026a9401bb188810e2aec8e97")!
+        let client = MPOFaceServiceClient(subscriptionKey: "1f4edb3daeda4b2d82dbdef097f95bc1")!
         
         let data = UIImageJPEGRepresentation(self.personImage, 0.8)
         
